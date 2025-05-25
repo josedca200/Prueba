@@ -29,14 +29,14 @@ export default function Sidebar() {
         </svg>
       </button>
 
-      <nav
-        className={`fixed md:static top-0 left-0 h-screen w-64 bg-white border-r p-4 space-y-2 transform transition-transform ${open ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}
+      <aside
+        className={`fixed md:sticky top-0 left-0 h-screen w-64 bg-white shadow-lg p-4 space-y-2 transform transition-transform ${open ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}
       >
         <ul className="space-y-1">
           <li>
             <button
               onClick={() => handleSelect('diferencial')}
-              className={`block w-full text-left p-2 rounded ${selected === 'diferencial' ? 'bg-primary-100 border-l-4 border-primary-600' : ''}`}
+              className={`block w-full text-left p-2 rounded ${selected === 'diferencial' ? 'bg-blue-100 border-l-4 border-blue-500' : ''}`}
             >
               Calculadora de diferencial cambiario
             </button>
@@ -44,7 +44,7 @@ export default function Sidebar() {
           <li>
             <button
               onClick={() => handleSelect('inventario')}
-              className={`block w-full text-left p-2 rounded ${selected === 'inventario' ? 'bg-primary-100 border-l-4 border-primary-600' : ''}`}
+              className={`block w-full text-left p-2 rounded ${selected === 'inventario' ? 'bg-blue-100 border-l-4 border-blue-500' : ''}`}
             >
               Inventario
             </button>
@@ -70,7 +70,7 @@ export default function Sidebar() {
                 <li>
                   <button
                     onClick={() => handleSelect('finanzas-ingresos')}
-                    className={`block w-full text-left p-2 rounded ${selected === 'finanzas-ingresos' ? 'bg-primary-100 border-l-4 border-primary-600' : ''}`}
+                    className={`block w-full text-left p-2 rounded ${selected === 'finanzas-ingresos' ? 'bg-blue-100 border-l-4 border-blue-500' : ''}`}
                   >
                     Ingresos
                   </button>
@@ -78,7 +78,7 @@ export default function Sidebar() {
                 <li>
                   <button
                     onClick={() => handleSelect('finanzas-egresos')}
-                    className={`block w-full text-left p-2 rounded ${selected === 'finanzas-egresos' ? 'bg-primary-100 border-l-4 border-primary-600' : ''}`}
+                    className={`block w-full text-left p-2 rounded ${selected === 'finanzas-egresos' ? 'bg-blue-100 border-l-4 border-blue-500' : ''}`}
                   >
                     Egresos
                   </button>
@@ -87,7 +87,7 @@ export default function Sidebar() {
             )}
           </li>
         </ul>
-      </nav>
+      </aside>
     </>
   )
 }
