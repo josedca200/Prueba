@@ -1,12 +1,26 @@
-# React + Vite
+# App de Autogestión Financiera
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta aplicación permite registrar ingresos y gastos de forma sencilla. Es una base sobre React + Vite con Tailwind CSS.
 
-Currently, two official plugins are available:
+## Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Asegúrate de tener Node.js instalado.
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el modo desarrollo:
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
+## Scripts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `npm run dev` inicia Vite en modo desarrollo.
+- `npm run build` genera la versión de producción.
+- `npm run preview` sirve la aplicación generada.
+- `npm run lint` ejecuta ESLint (puede requerir instalar dependencias de desarrollo).
+
+## Contribución
+
+Las solicitudes de mejora son bienvenidas. Crea un *fork* y envía un pull request.
