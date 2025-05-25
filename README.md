@@ -1,6 +1,13 @@
 # App de Autogestión Financiera
 
-Esta aplicación permite registrar ingresos y gastos de forma sencilla. Es una base sobre React + Vite con Tailwind CSS.
+Esta aplicación web permite a pequeñas empresas gestionar aspectos básicos de sus finanzas.
+Incluye inicio de sesión y registro de usuarios en el navegador y tres módulos principales:
+
+- **Calculadora de diferencial cambiario**: realiza cálculos simples entre dos tasas de cambio.
+- **Finanzas**: registro local de ingresos y egresos.
+- **Inventario**: lista de productos con cantidad y precio.
+
+Está construida con React, Vite y Tailwind CSS.
 
 ## Instalación
 
@@ -19,8 +26,6 @@ Esta aplicación permite registrar ingresos y gastos de forma sencilla. Es una b
 - `npm run dev` inicia Vite en modo desarrollo.
 - `npm run build` genera la versión de producción.
 - `npm run preview` sirve la aplicación generada.
-- `npm run lint` ejecuta ESLint (puede requerir instalar dependencias de desarrollo).
+- `npm run lint` ejecuta ESLint.
 
-## Contribución
-
-Las solicitudes de mejora son bienvenidas. Crea un *fork* y envía un pull request.
+Las contribuciones son bienvenidas mediante pull requests.
